@@ -9,22 +9,22 @@ const ProjectsSection = () => {
       title: "Angular Notes App",
       description: "A comprehensive notes application built with Angular featuring full CRUD operations, search functionality, and responsive design.",
       technologies: ["Angular", "TypeScript", "CSS3", "HTML5"],
-      github: "#",
-      demo: "#"
+      github: "https://github.com/NazarenoTognoli/notes-app",
+      demo: "https://www.linkedin.com/posts/nazareno-tognoli-024556279_this-ui-is-made-with-angular-repo-https-activity-7323919730275155968-7_bF?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEPkCZwBhHEavCHGEoLqXstVtDxUfTeHVv0"
     },
     {
       title: "JavaScript Grid System",
       description: "Advanced 2D grid system with collision detection and dynamic form rendering. Implements complex algorithms for spatial positioning.",
       technologies: ["JavaScript", "Canvas API", "CSS Grid"],
-      github: "#",
-      demo: "#"
+      github: "https://github.com/NazarenoTognoli/without-documentation/tree/master/2024/flexible-grid-placer",
+      demo: "https://www.linkedin.com/posts/nazareno-tognoli-024556279_this-project-demanded-strong-oop-logic-in-activity-7323923313745887232-JItI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEPkCZwBhHEavCHGEoLqXstVtDxUfTeHVv0"
     },
     {
       title: "Positioning Framework",
       description: "Flexible positioning system for web elements using percentage-based calculations and modular architecture patterns.",
       technologies: ["JavaScript", "DOM API", "CSS3"],
-      github: "#",
-      demo: "#"
+      github: "https://github.com/NazarenoTognoli/without-documentation/tree/master/2024/flexible-grid-placer",
+      demo: "https://www.linkedin.com/posts/nazareno-tognoli-024556279_this-project-demanded-strong-oop-logic-in-activity-7323923313745887232-JItI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEPkCZwBhHEavCHGEoLqXstVtDxUfTeHVv0"
     }
   ];
 
@@ -48,11 +48,11 @@ const ProjectsSection = () => {
                       <Folder className="w-5 h-5" />
                     </div>
                     <div className="flex gap-2 ml-auto">
-                      <Button variant="ghost" size="icon" className="opacity-0 group-hover:opacity-100 transition-opacity">
-                        <Github className="w-4 h-4" />
+                      <Button variant="ghost" size="icon" onClick={() => window.open(project.github, '_blank')} className="opacity-0 group-hover:opacity-100 transition-opacity">
+                        <Github className="w-4 h-4"/>
                       </Button>
-                      <Button variant="ghost" size="icon" className="opacity-0 group-hover:opacity-100 transition-opacity">
-                        <ExternalLink className="w-4 h-4" />
+                      <Button variant="ghost" size="icon" onClick={() => window.open(project.demo, '_blank')} className="opacity-0 group-hover:opacity-100 transition-opacity">
+                        <ExternalLink className="w-4 h-4"/>
                       </Button>
                     </div>
                   </div>

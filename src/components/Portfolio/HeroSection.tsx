@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Download, Mail, ExternalLink } from "lucide-react";
+import './FixStyle.css';
 
 const HeroSection = () => {
   const scrollToSection = (sectionId: string) => {
@@ -29,8 +30,8 @@ const HeroSection = () => {
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
           {/* Name with glow effect */}
-          <div className="border border-border/50 rounded-lg p-8 mb-8 card-elegant">
-            <h1 className="text-5xl md:text-7xl font-bold mb-4 text-glow">
+          <div className="border border-border/50 rounded-lg p-8 mb-8 card-elegant fix-class-name">
+            <h1 className="text-5xl md:text-7xl font-bold mb-4 text-glow fix-class-text">
               Nazareno E. Tognoli
             </h1>
           </div>
@@ -38,34 +39,36 @@ const HeroSection = () => {
           {/* Role cards */}
           <div className="grid md:grid-cols-3 gap-4 mb-8">
             <div className="border border-border/50 rounded-lg p-4 card-elegant">
-              <h2 className="text-lg font-semibold text-primary">Skilled</h2>
+              <h2 className="text-lg font-semibold text-primary">AI Automation</h2>
             </div>
             <div className="border border-border/50 rounded-lg p-4 card-elegant">
               <h2 className="text-xl font-bold text-accent">Fullstack</h2>
             </div>
             <div className="border border-border/50 rounded-lg p-4 card-elegant">
-              <h2 className="text-lg font-semibold text-primary">Web Developer</h2>
+              <h2 className="text-lg font-semibold text-primary">Developer</h2>
             </div>
           </div>
 
           {/* Description */}
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Junior web developer focused on continuous learning, adapting to new technologies, 
+            Fullstack developer focused on continuous learning, adapting to new technologies, 
             committed to constant improvement and adding value through collaboration.
           </p>
 
           {/* Tech Stack */}
           <div className="mb-8">
-            <p className="text-sm text-muted-foreground mb-4">Stacks:</p>
+            <p className="text-sm text-muted-foreground mb-4">Stack:</p>
             <div className="flex justify-center gap-4 text-sm">
-              <span className="text-primary">React + Express</span>
+              <span className="text-primary">ExpressJS</span>
               <span className="text-muted-foreground">|</span>
-              <span className="text-primary">.NET + Angular</span>
+              <span className="text-primary">Angular</span>
+              <span className="text-muted-foreground">|</span>
+              <span className="text-primary">MySQL</span>
             </div>
           </div>
 
           {/* Action Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center fix-hero-btn-container">
             <Button 
               variant="hero" 
               size="xl"
@@ -87,7 +90,7 @@ const HeroSection = () => {
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 fix-scroll-indicator">
         <div className="animate-bounce">
           <div className="w-6 h-10 border-2 border-primary rounded-full flex justify-center">
             <div className="w-1 h-3 bg-primary rounded-full mt-2 animate-pulse"></div>

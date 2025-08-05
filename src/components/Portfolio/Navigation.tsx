@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Home, User, Briefcase, Mail } from "lucide-react";
+import './FixStyle.css';
 
 const Navigation = () => {
   const scrollToSection = (sectionId: string) => {
@@ -10,10 +11,10 @@ const Navigation = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-6 py-4">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between fix-nav-container">
           <button 
             onClick={() => scrollToSection('hero')}
-            className="flex items-center gap-2 text-foreground hover:text-primary transition-colors"
+            className="flex items-center gap-2 text-foreground hover:text-primary transition-colors fix-hero-button"
           >
             <Home className="w-6 h-6" />
             <span className="font-bold text-lg">Portfolio</span>

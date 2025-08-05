@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+.fix-class-name {
+    margin-top: 100px;
+}
+.fix-class-text {
+    font-family: 'Quicksand' !important;
+    font-weight: 100 !important;
+}
+.fix-scroll-indicator {
+    display: none;
+}
+.fix-contact-container {
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 550px) {
+    .fix-hero-button {
+        display: none !important;
+    }
+    .fix-nav-container {
+        justify-content: flex-end !important;
+    }
+}
+.fix-hero-btn-container {
+    margin-bottom: 10px;
+}

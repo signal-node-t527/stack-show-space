@@ -22,8 +22,8 @@ const ContactSection = () => {
                   <Mail className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="text-lg font-semibold mb-2">Email</h3>
-                <p className="text-muted-foreground mb-4">nazareno.tognoli@example.com</p>
-                <Button variant="outline" size="sm">
+                <p className="text-muted-foreground mb-4">helper1422@gmail.com</p>
+                <Button variant="outline" size="sm" onClick={() => window.location.href = 'mailto:helper1422@gmail.com'}>
                   Send Email
                 </Button>
               </CardContent>
@@ -36,23 +36,23 @@ const ContactSection = () => {
                 </div>
                 <h3 className="text-lg font-semibold mb-2">Location</h3>
                 <p className="text-muted-foreground mb-4">Buenos Aires, Argentina</p>
-                <Button variant="outline" size="sm">
+                <Button variant="outline" size="sm" onClick={() => window.open('https://maps.app.goo.gl/JZ4qrCqNuAmcRHus6', '_blank')}>
                   View Map
                 </Button>
               </CardContent>
             </Card>
           </div>
 
-          <div className="flex justify-center gap-4">
-            <Button variant="hero" size="lg" className="group">
+          <div className="flex justify-center gap-4 fix-contact-container">
+            <Button variant="hero" size="lg" className="group" onClick={() => window.open('https://github.com/NazarenoTognoli', '_blank')}>
               <Github className="w-5 h-5 group-hover:scale-110 transition-transform" />
               GitHub
             </Button>
-            <Button variant="hero" size="lg" className="group">
+            <Button variant="hero" size="lg" className="group" onClick={() => window.open('https://www.linkedin.com/in/nazareno-tognoli-024556279/', '_blank')}>
               <Linkedin className="w-5 h-5 group-hover:scale-110 transition-transform" />
               LinkedIn
             </Button>
-            <Button variant="portfolio" size="lg" className="group">
+            <Button variant="portfolio" size="lg" className="group" onClick={() => window.location.href = 'mailto:helper1422@gmail.com'}>
               <Mail className="w-5 h-5 group-hover:scale-110 transition-transform" />
               Contact Me
             </Button>

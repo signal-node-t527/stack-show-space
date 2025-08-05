@@ -5,7 +5,7 @@ import { User, Globe, GraduationCap } from "lucide-react";
 const AboutSection = () => {
   const skills = [
     "JavaScript", "TypeScript", "CSS", "HTML", 
-    "React", "Angular", "GitHub", "GIT"
+    "React", "Angular", "GitHub", "GIT", "ExpressJS", "NodeJS", "MySQL", "SQL"
   ];
 
   const languages = [
@@ -75,7 +75,7 @@ const AboutSection = () => {
                 </div>
                 <div className="space-y-4">
                   <div>
-                    <h4 className="font-semibold text-primary">Computer Science</h4>
+                    <h4 className="font-semibold text-primary">Data & Computer Science</h4>
                     <p className="text-sm text-muted-foreground">Universidad de Buenos Aires</p>
                     <p className="text-sm text-muted-foreground">2025 - 2030</p>
                   </div>
