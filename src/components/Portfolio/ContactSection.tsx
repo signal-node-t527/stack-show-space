@@ -22,8 +22,8 @@ const ContactSection = () => {
                   <Mail className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="text-lg font-semibold mb-2">Email</h3>
-                <p className="text-muted-foreground mb-4">helper1422@gmail.com</p>
-                <Button variant="outline" size="sm" onClick={() => window.location.href = 'mailto:helper1422@gmail.com'}>
+                <p className="text-muted-foreground mb-4">localframe.dev@proton.me</p>
+                <Button variant="outline" size="sm" onClick={() => window.location.href = 'mailto:localframe.dev@proton.me'}>
                   Send Email
                 </Button>
               </CardContent>
@@ -44,7 +44,7 @@ const ContactSection = () => {
           </div>
 
           <div className="flex justify-center gap-4 fix-contact-container">
-            <Button variant="hero" size="lg" className="group" onClick={() => window.open('https://github.com/NazarenoTognoli', '_blank')}>
+            <Button variant="hero" size="lg" className="group" onClick={() => window.open('https://github.com/signal-node-t527', '_blank')}>
               <Github className="w-5 h-5 group-hover:scale-110 transition-transform" />
               GitHub
             </Button>
@@ -52,7 +52,7 @@ const ContactSection = () => {
               <Linkedin className="w-5 h-5 group-hover:scale-110 transition-transform" />
               LinkedIn
             </Button>
-            <Button variant="portfolio" size="lg" className="group" onClick={() => window.location.href = 'mailto:helper1422@gmail.com'}>
+            <Button variant="portfolio" size="lg" className="group" onClick={() => window.location.href = 'mailto:localframe.dev@proton.me'}>
               <Mail className="w-5 h-5 group-hover:scale-110 transition-transform" />
               Contact Me
             </Button>

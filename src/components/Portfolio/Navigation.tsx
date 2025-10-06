@@ -17,7 +17,7 @@ const Navigation = () => {
             className="flex items-center gap-2 text-foreground hover:text-primary transition-colors fix-hero-button"
           >
             <Home className="w-6 h-6" />
-            <span className="font-bold text-lg">Portfolio</span>
+            <span className="font-bold text-lg"></span>
           </button>
           
           <div className="flex items-center gap-6">

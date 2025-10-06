@@ -5,7 +5,7 @@ import { User, Globe, GraduationCap } from "lucide-react";
 const AboutSection = () => {
   const skills = [
     "JavaScript", "TypeScript", "CSS", "HTML", 
-    "React", "Angular", "GitHub", "GIT", "ExpressJS", "NodeJS", "MySQL", "SQL"
+    "React", "Angular", "GIT/GitHub", "ASP.NET Core", "EF Core", "SQL/SQLServer"
   ];
 
   const languages = [

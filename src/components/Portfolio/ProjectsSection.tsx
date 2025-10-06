@@ -8,22 +8,29 @@ const ProjectsSection = () => {
     {
       title: "Angular Notes App",
       description: "A comprehensive notes application built with Angular featuring full CRUD operations, search functionality, and responsive design.",
-      technologies: ["Angular", "TypeScript", "CSS3", "HTML5"],
-      github: "https://github.com/NazarenoTognoli/notes-app",
+      technologies: ["Angular", "TypeScript", "Sass", "HTML5"],
+      github: "https://github.com/signal-node-t527/notes-app",
       demo: "https://www.linkedin.com/posts/nazareno-tognoli-024556279_this-ui-is-made-with-angular-repo-https-activity-7323919730275155968-7_bF?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEPkCZwBhHEavCHGEoLqXstVtDxUfTeHVv0"
     },
     {
-      title: "JavaScript Grid System",
-      description: "Advanced 2D grid system with collision detection and dynamic form rendering. Implements complex algorithms for spatial positioning.",
-      technologies: ["JavaScript", "Canvas API", "CSS Grid"],
-      github: "https://github.com/NazarenoTognoli/without-documentation/tree/master/2024/flexible-grid-placer",
+      title: "Meta-OS GUI (In Development)",
+      description: "This GUI supports a system designed to solve real-life problems represented as graph data structures.",
+      technologies: ["Angular", "ngx-graph", "ngx-charts", "Sass", "HTML5", "Typescript", "Javascript"],
+      github: "https://github.com/signal-node-t527/resolution-engine",
       demo: "https://www.linkedin.com/posts/nazareno-tognoli-024556279_this-project-demanded-strong-oop-logic-in-activity-7323923313745887232-JItI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEPkCZwBhHEavCHGEoLqXstVtDxUfTeHVv0"
     },
     {
-      title: "Positioning Framework",
-      description: "Flexible positioning system for web elements using percentage-based calculations and modular architecture patterns.",
-      technologies: ["JavaScript", "DOM API", "CSS3"],
-      github: "https://github.com/NazarenoTognoli/without-documentation/tree/master/2024/flexible-grid-placer",
+      title: "File System Access API",
+      description: "A backend API for performing CRUD operations on the local file system, built with ASP.NET Core and Entity Framework Core.",
+      technologies: ["ASP.NET Core", "EF Core", "C#"],
+      github: "https://github.com/signal-node-t527/notes-fs-api",
+      demo: "https://www.linkedin.com/posts/nazareno-tognoli-024556279_this-project-demanded-strong-oop-logic-in-activity-7323923313745887232-JItI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEPkCZwBhHEavCHGEoLqXstVtDxUfTeHVv0"
+    },
+    {
+      title: "This SPA",
+      description: "This is the portfolio you're currently viewing.",
+      technologies: ["React", "AI", "HTML", "CSS", "Javascript"],
+      github: "https://github.com/signal-node-t527/stack-show-space",
       demo: "https://www.linkedin.com/posts/nazareno-tognoli-024556279_this-project-demanded-strong-oop-logic-in-activity-7323923313745887232-JItI?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEPkCZwBhHEavCHGEoLqXstVtDxUfTeHVv0"
     }
   ];

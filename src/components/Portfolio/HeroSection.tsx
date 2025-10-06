@@ -32,17 +32,17 @@ const HeroSection = () => {
           {/* Name with glow effect */}
           <div className="border border-border/50 rounded-lg p-8 mb-8 card-elegant fix-class-name">
             <h1 className="text-5xl md:text-7xl font-bold mb-4 text-glow fix-class-text">
-              Nazareno E. Tognoli
+              Emiliano T.
             </h1>
           </div>
 
           {/* Role cards */}
           <div className="grid md:grid-cols-3 gap-4 mb-8">
             <div className="border border-border/50 rounded-lg p-4 card-elegant">
-              <h2 className="text-lg font-semibold text-primary">AI Automation</h2>
+              <h2 className="text-lg font-semibold text-primary">Web</h2>
             </div>
             <div className="border border-border/50 rounded-lg p-4 card-elegant">
-              <h2 className="text-xl font-bold text-accent">Fullstack</h2>
+              <h2 className="text-xl font-bold text-accent">Software</h2>
             </div>
             <div className="border border-border/50 rounded-lg p-4 card-elegant">
               <h2 className="text-lg font-semibold text-primary">Developer</h2>
@@ -51,19 +51,18 @@ const HeroSection = () => {
 
           {/* Description */}
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Fullstack developer focused on continuous learning, adapting to new technologies, 
-            committed to constant improvement and adding value through collaboration.
+            Software developer with a strong foundation in modern web technologies, committed to delivering scalable solutions and fostering collaborative development environments.
           </p>
 
           {/* Tech Stack */}
           <div className="mb-8">
             <p className="text-sm text-muted-foreground mb-4">Stack:</p>
             <div className="flex justify-center gap-4 text-sm">
-              <span className="text-primary">ExpressJS</span>
-              <span className="text-muted-foreground">|</span>
               <span className="text-primary">Angular</span>
               <span className="text-muted-foreground">|</span>
-              <span className="text-primary">MySQL</span>
+              <span className="text-primary">ASP.NETCore</span>
+              <span className="text-muted-foreground">|</span>
+              <span className="text-primary">SQLServer</span>
             </div>
           </div>
 
