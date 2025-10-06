@@ -48,7 +48,7 @@ const ContactSection = () => {
               <Github className="w-5 h-5 group-hover:scale-110 transition-transform" />
               GitHub
             </Button>
-            <Button variant="hero" size="lg" className="group" onClick={() => window.open('https://www.linkedin.com/in/nazareno-tognoli-024556279/', '_blank')}>
+            <Button variant="hero" size="lg" className="group" onClick={() => window.open('https://www.linkedin.com/in/emiliano-t-024556279/', '_blank')}>
               <Linkedin className="w-5 h-5 group-hover:scale-110 transition-transform" />
               LinkedIn
             </Button>
