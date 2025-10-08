@@ -15,7 +15,7 @@ const HeroSection = () => {
         <pre className="text-xs text-muted-foreground p-8 overflow-hidden">
           {`function createPortfolio() {
   const developer = {
-    name: "Nazareno E. Tognoli",
+    name: "Lorem Ipsum",
     role: "Fullstack Web Developer",
     passion: "Building amazing web experiences",
     technologies: ["React", "Angular", "Node.js", ".NET"],
