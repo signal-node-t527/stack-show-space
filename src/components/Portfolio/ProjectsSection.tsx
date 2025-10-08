@@ -16,7 +16,7 @@ const ProjectsSection = () => {
       title: "Meta-OS GUI (In Development)",
       description: "This GUI supports a system designed to solve real-life problems represented as graph data structures.",
       technologies: ["Angular", "ngx-graph", "ngx-charts", "Sass", "HTML5", "Typescript", "Javascript"],
-      github: "https://github.com/signal-node-t527/resolution-engine",
+      github: "https://github.com/signal-node-t527/shiny-computing-machine",
       demo: "https://www.linkedin.com/posts/emiliano-t-024556279_resolution-engine-httpslnkdindmewgzkv-ugcPost-7323923290027114496-FDlf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEPkCZwBhHEavCHGEoLqXstVtDxUfTeHVv0"
     },
     {
